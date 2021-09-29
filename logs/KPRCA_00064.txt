@@ -1,0 +1,563 @@
+#################### RULE 2 #########################
+AddrVFGNode ID: 97 AddrPE: [692<--693]	
+   %11 = call noalias i8* @malloc(i64 %10) #15, !dbg !143 { ln: 343  cl: 30  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 113 AddrPE: [1298<--1299]	
+   %2 = alloca i8*, align 8 {  }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 112 AddrPE: [1296<--1297]	
+   %1 = alloca [95 x i8], align 16 { ln: 42 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 125 AddrPE: [1481<--1482]	
+   %2 = alloca i8*, align 8 {  }
+--------------------------------------------------------------
+AddrVFGNode ID: 90 AddrPE: [442<--443]	
+   %22 = call noalias dereferenceable_or_null(512) i8* @malloc(i64 512) #15, !dbg !154 { ln: 254  cl: 24  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 95 AddrPE: [677<--678]	
+   %4 = alloca [256 x i8], align 16 { ln: 338 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 68 AddrPE: [15<--16]	
+ @stdin = external dso_local local_unnamed_addr constant %struct.FILE*, align 8 { Glob  }
+--------------------------------------------------------------
+AddrVFGNode ID: 124 AddrPE: [1479<--1480]	
+   %1 = alloca [95 x i8], align 16 { ln: 92 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 86 AddrPE: [397<--398]	
+   %4 = alloca [512 x i8], align 16 { ln: 244 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 131 AddrPE: [1624<--1625]	
+   %1 = alloca [8 x i8], align 1 { ln: 147 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 3 #########################
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 90 AddrPE: [442<--443]	
+   %22 = call noalias dereferenceable_or_null(512) i8* @malloc(i64 512) #15, !dbg !154 { ln: 254  cl: 24  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 86 AddrPE: [397<--398]	
+   %4 = alloca [512 x i8], align 16 { ln: 244 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 97 AddrPE: [692<--693]	
+   %11 = call noalias i8* @malloc(i64 %10) #15, !dbg !143 { ln: 343  cl: 30  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 95 AddrPE: [677<--678]	
+   %4 = alloca [256 x i8], align 16 { ln: 338 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 96 AddrPE: [679<--680]	
+   %5 = alloca [2048 x i8], align 16 { ln: 396 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 103 AddrPE: [1021<--1022]	
+   %6 = call noalias i8* @malloc(i64 %5) #15, !dbg !115 { ln: 230  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 113 AddrPE: [1298<--1299]	
+   %2 = alloca i8*, align 8 {  }
+--------------------------------------------------------------
+AddrVFGNode ID: 112 AddrPE: [1296<--1297]	
+   %1 = alloca [95 x i8], align 16 { ln: 42 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 124 AddrPE: [1479<--1480]	
+   %1 = alloca [95 x i8], align 16 { ln: 92 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 68 AddrPE: [15<--16]	
+ @stdin = external dso_local local_unnamed_addr constant %struct.FILE*, align 8 { Glob  }
+--------------------------------------------------------------
+AddrVFGNode ID: 131 AddrPE: [1624<--1625]	
+   %1 = alloca [8 x i8], align 1 { ln: 147 fl: main.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 3 #########################
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 5 #########################
+##################################################
+
+
+#################### RULE 6 #########################
+AddrVFGNode ID: 112 AddrPE: [1296<--1297]	
+   %1 = alloca [95 x i8], align 16 { ln: 42 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 125 AddrPE: [1481<--1482]	
+   %2 = alloca i8*, align 8 {  }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 113 AddrPE: [1298<--1299]	
+   %2 = alloca i8*, align 8 {  }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 124 AddrPE: [1479<--1480]	
+   %1 = alloca [95 x i8], align 16 { ln: 92 fl: main.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 7 #########################
+##################################################
+
+
+#################### RULE 8 #########################
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 113 AddrPE: [1298<--1299]	
+   %2 = alloca i8*, align 8 {  }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 90 AddrPE: [442<--443]	
+   %22 = call noalias dereferenceable_or_null(512) i8* @malloc(i64 512) #15, !dbg !154 { ln: 254  cl: 24  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 86 AddrPE: [397<--398]	
+   %4 = alloca [512 x i8], align 16 { ln: 244 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 90 AddrPE: [442<--443]	
+   %22 = call noalias dereferenceable_or_null(512) i8* @malloc(i64 512) #15, !dbg !154 { ln: 254  cl: 24  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 95 AddrPE: [677<--678]	
+   %4 = alloca [256 x i8], align 16 { ln: 338 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 95 AddrPE: [677<--678]	
+   %4 = alloca [256 x i8], align 16 { ln: 338 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 95 AddrPE: [677<--678]	
+   %4 = alloca [256 x i8], align 16 { ln: 338 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 97 AddrPE: [692<--693]	
+   %11 = call noalias i8* @malloc(i64 %10) #15, !dbg !143 { ln: 343  cl: 30  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 95 AddrPE: [677<--678]	
+   %4 = alloca [256 x i8], align 16 { ln: 338 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 95 AddrPE: [677<--678]	
+   %4 = alloca [256 x i8], align 16 { ln: 338 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 95 AddrPE: [677<--678]	
+   %4 = alloca [256 x i8], align 16 { ln: 338 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 95 AddrPE: [677<--678]	
+   %4 = alloca [256 x i8], align 16 { ln: 338 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 89 AddrPE: [432<--433]	
+   %19 = call noalias i8* @malloc(i64 %16) #15, !dbg !150 { ln: 249  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 96 AddrPE: [679<--680]	
+   %5 = alloca [2048 x i8], align 16 { ln: 396 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 97 AddrPE: [692<--693]	
+   %11 = call noalias i8* @malloc(i64 %10) #15, !dbg !143 { ln: 343  cl: 30  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 71 AddrPE: [54<--55]	
+   %2 = call noalias dereferenceable_or_null(16) i8* @malloc(i64 16) #15, !dbg !111 { ln: 32  cl: 28  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 96 AddrPE: [679<--680]	
+   %5 = alloca [2048 x i8], align 16 { ln: 396 fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 90 AddrPE: [442<--443]	
+   %22 = call noalias dereferenceable_or_null(512) i8* @malloc(i64 512) #15, !dbg !154 { ln: 254  cl: 24  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 90 AddrPE: [442<--443]	
+   %22 = call noalias dereferenceable_or_null(512) i8* @malloc(i64 512) #15, !dbg !154 { ln: 254  cl: 24  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 90 AddrPE: [442<--443]	
+   %22 = call noalias dereferenceable_or_null(512) i8* @malloc(i64 512) #15, !dbg !154 { ln: 254  cl: 24  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 90 AddrPE: [442<--443]	
+   %22 = call noalias dereferenceable_or_null(512) i8* @malloc(i64 512) #15, !dbg !154 { ln: 254  cl: 24  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 88 AddrPE: [428<--429]	
+   %17 = call noalias dereferenceable_or_null(4096) i8* @malloc(i64 4096) #15, !dbg !149 { ln: 248  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 103 AddrPE: [1021<--1022]	
+   %6 = call noalias i8* @malloc(i64 %5) #15, !dbg !115 { ln: 230  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 103 AddrPE: [1021<--1022]	
+   %6 = call noalias i8* @malloc(i64 %5) #15, !dbg !115 { ln: 230  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 103 AddrPE: [1021<--1022]	
+   %6 = call noalias i8* @malloc(i64 %5) #15, !dbg !115 { ln: 230  cl: 26  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 125 AddrPE: [1481<--1482]	
+   %2 = alloca i8*, align 8 {  }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 113 AddrPE: [1298<--1299]	
+   %2 = alloca i8*, align 8 {  }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 100 AddrPE: [843<--844]	
+   %98 = call noalias i8* @malloc(i64 %95) #15, !dbg !252 { ln: 401  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 98 AddrPE: [698<--699]	
+   %14 = call noalias i8* @malloc(i64 %13) #15, !dbg !147 { ln: 344  cl: 32  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 112 AddrPE: [1296<--1297]	
+   %1 = alloca [95 x i8], align 16 { ln: 42 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 68 AddrPE: [15<--16]	
+ @stdin = external dso_local local_unnamed_addr constant %struct.FILE*, align 8 { Glob  }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [1300<--1301]	
+   %3 = alloca [4096 x i8], align 16 { ln: 43 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 124 AddrPE: [1479<--1480]	
+   %1 = alloca [95 x i8], align 16 { ln: 92 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [315<--316]	
+   %2 = call noalias dereferenceable_or_null(120) i8* @malloc(i64 120) #15, !dbg !111 { ln: 107  cl: 33  fl: sc.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 125 AddrPE: [1481<--1482]	
+   %2 = alloca i8*, align 8 {  }
+--------------------------------------------------------------
+AddrVFGNode ID: 68 AddrPE: [15<--16]	
+ @stdin = external dso_local local_unnamed_addr constant %struct.FILE*, align 8 { Glob  }
+--------------------------------------------------------------
+AddrVFGNode ID: 126 AddrPE: [1483<--1484]	
+   %3 = alloca [4096 x i8], align 16 { ln: 93 fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 68 AddrPE: [15<--16]	
+ @stdin = external dso_local local_unnamed_addr constant %struct.FILE*, align 8 { Glob  }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 9 #########################
+AddrVFGNode ID: 97 AddrPE: [692<--693]	
+   %11 = call noalias i8* @malloc(i64 %10) #15, !dbg !143 { ln: 343  cl: 30  fl: sc.c }
+--------------------------------------------------------------
+##################################################
+
+

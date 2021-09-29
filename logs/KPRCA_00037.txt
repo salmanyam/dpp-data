@@ -1,0 +1,347 @@
+#################### RULE 2 #########################
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [724<--725]	
+   %16 = call i8* @malloc(i64 %10), !dbg !187 { ln: 187  cl: 10  fl: main.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 3 #########################
+AddrVFGNode ID: 114 AddrPE: [724<--725]	
+   %16 = call i8* @malloc(i64 %10), !dbg !187 { ln: 187  cl: 10  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 3 #########################
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 123 AddrPE: [958<--959]	
+   %176 = call i8* @malloc(i64 %175), !dbg !352 { ln: 269  cl: 28  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 119 AddrPE: [825<--826]	
+   %87 = call i8* @malloc(i64 %86), !dbg !266 { ln: 231  cl: 25  fl: main.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 5 #########################
+##################################################
+
+
+#################### RULE 6 #########################
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 114 AddrPE: [724<--725]	
+   %16 = call i8* @malloc(i64 %10), !dbg !187 { ln: 187  cl: 10  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 7 #########################
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 8 #########################
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 91 AddrPE: [267<--268]	
+   %6 = call dereferenceable_or_null(16) i8* @malloc(i64 16), !dbg !152 { ln: 34  cl: 23  fl: slist.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 118 AddrPE: [793<--794]	
+   %61 = call dereferenceable_or_null(48) i8* @malloc(i64 48), !dbg !240 { ln: 222  cl: 26  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 121 AddrPE: [924<--925]	
+   %151 = call dereferenceable_or_null(24) i8* @malloc(i64 24), !dbg !326 { ln: 261  cl: 38  fl: main.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 79 AddrPE: [42<--81]	
+ @switch.table.cgcf_section_type2str = private unnamed_addr constant [20 x i8*] [i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.19, i64 0, i64 0), i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.1.20, i64 0, i64 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.2.21, i64 0, i64 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.3.22, i64 0, i64 0), i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.4.23, i64 0, i64 0), i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.5.24, i64 0, i64 0), i8* getelementptr inbounds ([8 x i8], [8 x i8]* @.str.6.25, i64 0, i64 0), i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.7.26, i64 0, i64 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.8.27, i64 0, i64 0), i8* getelementptr inbounds ([4 x i8], [4 x i8]* @.str.9.28, i64 0, i64 0), i8* getelementptr inbounds ([11 x i8], [11 x i8]* @.str.10.29, i64 0, i64 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.11.30, i64 0, i64 0), i8* getelementptr inbounds ([8 x i8], [8 x i8]* @.str.18.3, i64 0, i64 0), i8* getelementptr inbounds ([8 x i8], [8 x i8]* @.str.18.3, i64 0, i64 0), i8* getelementptr inbounds ([11 x i8], [11 x i8]* @.str.12.31, i64 0, i64 0), i8* getelementptr inbounds ([11 x i8], [11 x i8]* @.str.13.32, i64 0, i64 0), i8* getelementptr inbounds ([14 x i8], [14 x i8]* @.str.14.33, i64 0, i64 0), i8* getelementptr inbounds ([6 x i8], [6 x i8]* @.str.15.34, i64 0, i64 0), i8* getelementptr inbounds ([13 x i8], [13 x i8]* @.str.16.35, i64 0, i64 0), i8* getelementptr inbounds ([4 x i8], [4 x i8]* @.str.17.36, i64 0, i64 0)], align 8 { Glob  }
+--------------------------------------------------------------
+AddrVFGNode ID: 80 AddrPE: [82<--89]	
+ @switch.table.cgcf_symbol_bind2str = private unnamed_addr constant [4 x i8*] [i8* getelementptr inbounds ([6 x i8], [6 x i8]* @.str.19.39, i64 0, i64 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.20, i64 0, i64 0), i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.21, i64 0, i64 0), i8* getelementptr inbounds ([4 x i8], [4 x i8]* @.str.17.36, i64 0, i64 0)], align 8 { Glob  }
+--------------------------------------------------------------
+AddrVFGNode ID: 81 AddrPE: [90<--105]	
+ @switch.table.cgcf_symbol_type2str = private unnamed_addr constant [8 x i8*] [i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.22, i64 0, i64 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.23, i64 0, i64 0), i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.24, i64 0, i64 0), i8* getelementptr inbounds ([8 x i8], [8 x i8]* @.str.25, i64 0, i64 0), i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.26, i64 0, i64 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.27, i64 0, i64 0), i8* getelementptr inbounds ([4 x i8], [4 x i8]* @.str.28, i64 0, i64 0), i8* getelementptr inbounds ([4 x i8], [4 x i8]* @.str.17.36, i64 0, i64 0)], align 8 { Glob  }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 9 #########################
+AddrVFGNode ID: 114 AddrPE: [724<--725]	
+   %16 = call i8* @malloc(i64 %10), !dbg !187 { ln: 187  cl: 10  fl: main.c }
+--------------------------------------------------------------
+##################################################
+
+

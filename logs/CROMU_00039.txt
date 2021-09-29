@@ -1,0 +1,146 @@
+#################### RULE 2 #########################
+AddrVFGNode ID: 53 AddrPE: [201<--202]	
+   %3 = alloca [256 x i8], align 16 { ln: 125 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 63 AddrPE: [338<--339]	
+   %3 = alloca [128 x i8], align 16 { ln: 195 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 64 AddrPE: [340<--341]	
+   %4 = alloca [128 x i8], align 16 { ln: 196 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 34 AddrPE: [6<--8]	
+ @pVARS = dso_local local_unnamed_addr global %struct._vars* null, align 8, !dbg !0 { Glob ln: 31 fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 3 #########################
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 34 AddrPE: [6<--8]	
+ @pVARS = dso_local local_unnamed_addr global %struct._vars* null, align 8, !dbg !0 { Glob ln: 31 fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 63 AddrPE: [338<--339]	
+   %3 = alloca [128 x i8], align 16 { ln: 195 fl: packet.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 3 #########################
+##################################################
+
+
+#################### RULE 5 #########################
+##################################################
+
+
+#################### RULE 6 #########################
+AddrVFGNode ID: 63 AddrPE: [338<--339]	
+   %3 = alloca [128 x i8], align 16 { ln: 195 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 64 AddrPE: [340<--341]	
+   %4 = alloca [128 x i8], align 16 { ln: 196 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 34 AddrPE: [6<--8]	
+ @pVARS = dso_local local_unnamed_addr global %struct._vars* null, align 8, !dbg !0 { Glob ln: 31 fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 53 AddrPE: [201<--202]	
+   %3 = alloca [256 x i8], align 16 { ln: 125 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 7 #########################
+##################################################
+
+
+#################### RULE 8 #########################
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 53 AddrPE: [201<--202]	
+   %3 = alloca [256 x i8], align 16 { ln: 125 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 53 AddrPE: [201<--202]	
+   %3 = alloca [256 x i8], align 16 { ln: 125 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 53 AddrPE: [201<--202]	
+   %3 = alloca [256 x i8], align 16 { ln: 125 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 53 AddrPE: [201<--202]	
+   %3 = alloca [256 x i8], align 16 { ln: 125 fl: packet.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 36 AddrPE: [16<--17]	
+   %1 = alloca [256 x i8], align 16 { ln: 33 fl: service.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 67 AddrPE: [478<--479]	
+   %11 = call dereferenceable_or_null(280) i8* @calloc(i64 1, i64 280), !dbg !114 { ln: 98  cl: 12  fl: vars.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 9 #########################
+##################################################
+
+

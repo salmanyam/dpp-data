@@ -1,0 +1,332 @@
+#################### RULE 2 #########################
+AddrVFGNode ID: 140 AddrPE: [748<--749]	
+   %4 = alloca [8 x i8], align 1 { ln: 302 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 141 AddrPE: [750<--751]	
+   %5 = alloca [2 x i8], align 1 { ln: 306 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 146 AddrPE: [865<--866]	
+   %1 = alloca [32 x i8], align 16 { ln: 347 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 163 AddrPE: [1237<--1238]	
+   %1 = alloca [2 x i8], align 1 { ln: 548 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 147 AddrPE: [867<--868]	
+   %2 = alloca [32 x i8], align 16 { ln: 348 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 137 AddrPE: [742<--743]	
+   %1 = alloca [32 x i8], align 16 { ln: 299 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 109 AddrPE: [7<--9]	
+ @head = dso_local local_unnamed_addr global %struct._contact* null, align 8, !dbg !72 { Glob ln: 53 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 138 AddrPE: [744<--745]	
+   %2 = alloca [32 x i8], align 16 { ln: 300 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 157 AddrPE: [1079<--1080]	
+   %2 = alloca [2 x i8], align 1 { ln: 468 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 3 #########################
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 109 AddrPE: [7<--9]	
+ @head = dso_local local_unnamed_addr global %struct._contact* null, align 8, !dbg !72 { Glob ln: 53 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 140 AddrPE: [748<--749]	
+   %4 = alloca [8 x i8], align 1 { ln: 302 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 141 AddrPE: [750<--751]	
+   %5 = alloca [2 x i8], align 1 { ln: 306 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 137 AddrPE: [742<--743]	
+   %1 = alloca [32 x i8], align 16 { ln: 299 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 138 AddrPE: [744<--745]	
+   %2 = alloca [32 x i8], align 16 { ln: 300 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 146 AddrPE: [865<--866]	
+   %1 = alloca [32 x i8], align 16 { ln: 347 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 157 AddrPE: [1079<--1080]	
+   %2 = alloca [2 x i8], align 1 { ln: 468 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 163 AddrPE: [1237<--1238]	
+   %1 = alloca [2 x i8], align 1 { ln: 548 fl: yolodex.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 4 #########################
+##################################################
+
+
+#################### RULE 5 #########################
+##################################################
+
+
+#################### RULE 6 #########################
+AddrVFGNode ID: 137 AddrPE: [742<--743]	
+   %1 = alloca [32 x i8], align 16 { ln: 299 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 138 AddrPE: [744<--745]	
+   %2 = alloca [32 x i8], align 16 { ln: 300 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 146 AddrPE: [865<--866]	
+   %1 = alloca [32 x i8], align 16 { ln: 347 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 109 AddrPE: [7<--9]	
+ @head = dso_local local_unnamed_addr global %struct._contact* null, align 8, !dbg !72 { Glob ln: 53 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 147 AddrPE: [867<--868]	
+   %2 = alloca [32 x i8], align 16 { ln: 348 fl: yolodex.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 7 #########################
+##################################################
+
+
+#################### RULE 8 #########################
+AddrVFGNode ID: 138 AddrPE: [744<--745]	
+   %2 = alloca [32 x i8], align 16 { ln: 300 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 137 AddrPE: [742<--743]	
+   %1 = alloca [32 x i8], align 16 { ln: 299 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 147 AddrPE: [867<--868]	
+   %2 = alloca [32 x i8], align 16 { ln: 348 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 141 AddrPE: [750<--751]	
+   %5 = alloca [2 x i8], align 1 { ln: 306 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 138 AddrPE: [744<--745]	
+   %2 = alloca [32 x i8], align 16 { ln: 300 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 139 AddrPE: [746<--747]	
+   %3 = alloca [16 x i8], align 16 { ln: 301 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 163 AddrPE: [1237<--1238]	
+   %1 = alloca [2 x i8], align 1 { ln: 548 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 137 AddrPE: [742<--743]	
+   %1 = alloca [32 x i8], align 16 { ln: 299 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 157 AddrPE: [1079<--1080]	
+   %2 = alloca [2 x i8], align 1 { ln: 468 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 146 AddrPE: [865<--866]	
+   %1 = alloca [32 x i8], align 16 { ln: 347 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 140 AddrPE: [748<--749]	
+   %4 = alloca [8 x i8], align 1 { ln: 302 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 141 AddrPE: [750<--751]	
+   %5 = alloca [2 x i8], align 1 { ln: 306 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 151 AddrPE: [934<--935]	
+   %2 = alloca [32 x i8], align 16 { ln: 383 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 157 AddrPE: [1079<--1080]	
+   %2 = alloca [2 x i8], align 1 { ln: 468 fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+AddrVFGNode ID: 117 AddrPE: [284<--285]	
+   %7 = call dereferenceable_or_null(112) i8* @calloc(i64 1, i64 112), !dbg !90 { ln: 99  cl: 19  fl: yolodex.c }
+--------------------------------------------------------------
+##################################################
+
+
+#################### RULE 9 #########################
+##################################################
+
+

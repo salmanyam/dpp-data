@@ -1,0 +1,163 @@
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh CROMU_00003 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+76(15) 76(13) 76(12) 76(11) 0(0) 0(0) 69(8) 0(0) 76(11) 0(0) 76(12) 
+DPP Analysis:
+
+
+
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh CROMU_00039 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+38(8) 33(6) 33(6) 29(4) 0(0) 0(0) 33(6) 0(0) 33(3) 0(0) 33(6) 
+DPP Analysis:
+
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh CROMU_00040 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+93(20) 20(7) 20(7) 18(5) 0(0) 0(0) 12(4) 0(0) 18(4) 0(0) 20(7) 
+DPP Analysis:
+
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh ghttpd-1.4 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+173(77) 77(11) 77(11) 77(11) 0(0) 0(1) 43(5) 0(0) 77(8) 0(0) 77(12) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00011 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+122(28) 37(7) 37(7) 37(7) 0(0) 13(1) 34(5) 0(0) 37(7) 0(0) 50(8) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00013 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+239(38) 223(28) 222(25) 223(27) 148(8) 5(1) 212(23) 0(0) 222(22) 30(2) 228(29) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00023 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+145(12) 140(4) 140(4) 140(4) 0(0) 2(5) 140(3) 0(0) 140(4) 0(0) 142(9) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00037 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+52(9) 52(7) 49(4) 49(4) 49(5) 0(0) 49(4) 47(2) 52(6) 2(1) 52(9) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00040 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+103(6) 103(5) 103(5) 103(5) 0(0) 0(0) 103(4) 0(0) 103(5) 0(0) 103(5) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00045 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+150(27) 149(22) 149(20) 149(18) 93(4) 0(0) 149(17) 0(0) 149(18) 0(0) 149(23) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00047 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+53(9) 47(6) 47(6) 46(5) 17(1) 0(0) 11(1) 0(0) 46(5) 17(1) 47(6) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00050 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+48(10) 19(3) 19(3) 19(3) 0(0) 0(0) 0(0) 0(0) 19(3) 0(0) 19(3) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00056 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+20(6) 15(4) 14(3) 14(3) 0(0) 0(0) 0(0) 0(0) 15(4) 2(1) 15(4) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh KPRCA_00064 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+142(23) 135(20) 134(18) 135(19) 40(1) 0(0) 95(9) 0(0) 135(19) 2(1) 135(20) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh NRFIN_00009 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+51(13) 15(9) 15(8) 13(4) 0(0) 1(1) 0(0) 0(0) 8(3) 0(0) 16(9) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh NRFIN_00037 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+5(1) 0(0) 0(0) 0(0) 0(0) 0(0) 0(0) 0(0) 0(0) 0(0) 0(0) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh NRFIN_00042 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+74(33) 5(3) 5(3) 5(3) 0(0) 50(1) 2(1) 0(0) 4(2) 3(1) 55(4) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh nullhttpd-0.5.0 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+496(100) 439(35) 430(23) 430(23) 52(5) 87(8) 428(22) 0(0) 439(22) 156(1) 475(35) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh orzhttpd > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+1656(285) 16(6) 11(3) 16(5) 0(0) 55(5) 8(2) 0(0) 0(0) 0(0) 71(10) 
+DPP Analysis:
+
+
+salman@salman-lab-pc:~/DPP/dpp-data$ ./run.sh wuftpd-2.6.0 > /dev/null 
+Data Pointer Prioritization Analysis
+SVF Initialization Done
+Rule1 initialization done...
+2779(590) 2468(313) 2305(266) 2250(242) 0(0) 401(23) 1905(178) 33(1) 2218(232) 547(18) 2495(313) 
+DPP Analysis:
