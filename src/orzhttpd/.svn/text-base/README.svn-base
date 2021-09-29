@@ -1,0 +1,70 @@
+/* $Id$ */
+
+OrzHTTPd - Orz HTTP Server
+
+    Author: Bor-Yeh Shen <byshen@cs.nctu.edu.tw>
+
+===============================================================================
+
+Server features:
+
+    - Partial HTTP/1.1 support (GET, HEAD)
+    - Event-driven
+    - Keep-alive connections
+    - Digest (MD5) authorization
+    - Directory indexes 
+    - User home directories
+    - Virtual hosts
+    - MIME settings
+    - Logging
+    - IPv6 support
+    - Custom error messages
+    - XML-based configuration file
+
+===============================================================================
+
+OrzHTTPd/0.0.6
+
+    - support digest authorization
+    - add XML-based configuration file
+
+===============================================================================
+
+OrzHTTPd/0.0.5
+
+    - add stat cache
+    - support user home directories
+    - support virtual hosts
+    - custom error messages
+    - fix bugs
+
+OrzHTTPd/0.0.4
+
+    - support keep-alive connections
+    - add write buffer
+    - add a slab based allocator
+    - event timeout
+    - fix bugs
+
+OrzHTTPd/0.0.3
+
+    - use libevent
+    - use sendfile()
+    - non-blocking network I/O
+    - support multi-task with event
+    - add alarm based time() optimization
+    - fix bugs
+
+OrzHTTPd/0.0.2
+
+    - add IPv6 support
+    - add directory listing
+    - add 403/404 pages
+    - add access log and error log
+    - add MIME type checking
+    - fix bugs
+
+OrzHTTPd/0.0.1
+
+    - sby-httpd
+

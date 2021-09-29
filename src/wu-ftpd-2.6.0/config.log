@@ -1,0 +1,192 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:688: checking host system type
+configure:709: checking target system type
+configure:727: checking build system type
+configure:752: checking for gcc
+configure:865: checking whether the C compiler (gcc  ) works
+configure:881: gcc -o conftest    conftest.c  1>&5
+configure:878:1: warning: return type defaults to 'int' [-Wimplicit-int]
+  878 | main(){return(0);}
+      | ^~~~
+configure:907: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:912: checking whether we are using GNU C
+configure:940: checking whether gcc accepts -g
+configure:972: checking for POSIXized ISC
+configure:995: checking for ranlib
+configure:1027: checking for bison
+configure:1069: checking for a BSD compatible install
+configure:1126: checking for ar
+configure:1161: checking how to run the C preprocessor
+configure:1241: checking for ANSI C header files
+configure:1345: checking whether time.h and sys/time.h may both be included
+configure:1386: checking if we can do hard links
+configure:1781: checking for dirent.h
+configure:1781: checking for regex.h
+configure:1781: checking for shadow.h
+configure:1781: checking for security/pam_appl.h
+configure:1781: checking for opie.h
+configure:1781: checking for skey.h
+configure:1781: checking for syslog.h
+configure:1781: checking for sys/syslog.h
+configure:1781: checking for fcntl.h
+configure:1781: checking for mntent.h
+configure:1781: checking for stdlib.h
+configure:1781: checking for unistd.h
+configure:1781: checking for glob.h
+configure:1781: checking for grp.h
+configure:1781: checking for ndir.h
+configure:1781: checking for sys/dir.h
+configure:1781: checking for sys/ndir.h
+configure:1781: checking for string.h
+configure:1781: checking for vmsdir.h
+configure:1781: checking for sys/systeminfo.h
+configure:1781: checking for bsd/bsd.h
+configure:1781: checking for sys/param.h
+configure:1781: checking for values.h
+configure:1781: checking for limits.h
+configure:1781: checking for sys/types.h
+configure:1781: checking for sys/mntent.h
+configure:1781: checking for sys/mnttab.h
+configure:1781: checking for paths.h
+configure:1824: checking for dirfd
+configure:1824: checking for fchdir
+configure:1824: checking for flock
+configure:1824: checking for ftw
+configure:1824: checking for getcwd
+configure:1824: checking for getdtablesize
+configure:1824: checking for pstat
+configure:1824: checking for lstat
+configure:1824: checking for vprintf
+configure:1824: checking for snprintf
+configure:1824: checking for regexec
+configure:1824: checking for regex
+configure:1824: checking for fgetspent
+configure:1824: checking for usercmp
+configure:1824: checking for getusershell
+configure:1824: checking for setuid
+configure:1824: checking for vsnprintf
+configure:1824: checking for snprintf
+configure:1824: checking for strcasestr
+configure:1824: checking for strdup
+configure:1824: checking for strerror
+configure:1824: checking for strsep
+configure:1824: checking for strstr
+configure:1824: checking for syslog
+configure:1824: checking for glob
+configure:1824: checking for strcasecmp
+configure:1824: checking for strncasecmp
+configure:1824: checking for sigprocmask
+configure:1824: checking for quotactl
+configure:1824: checking for getrlimit
+configure:1824: checking for sysconf
+configure:1824: checking for setsid
+configure:1824: checking for memmove
+configure:1824: checking for strtoul
+configure:1879: checking for seteuid
+configure:1934: checking for setegid
+configure:1988: checking for crypt in -lcrypt
+configure:2033: checking for socket in -lsocket
+configure:2077: checking for socket in -lsocket
+configure:2122: checking for connect in -lsocket
+configure:2166: checking for connect in -lsocket
+configure:2215: checking for inet_addr in -lnsl
+configure:2261: checking for sys_siglist
+configure:2271: gcc -c -g -O2  conftest.c 1>&5
+configure:2290: checking type of qsort
+configure:2300: gcc -c -g -O2  conftest.c 1>&5
+configure:2319: checking how to determine bytesize
+configure:2348: gcc -c -g -O2  conftest.c 1>&5
+configure:2454: checking if openlog requires 3 arguments
+configure:2468: gcc -c -g -O2  conftest.c 1>&5
+configure:2481: checking which facility openlog understands
+configure:2495: gcc -c -g -O2  conftest.c 1>&5
+configure:2570: checking type of getmntent function
+configure:2590: gcc -c -g -O2  conftest.c 1>&5
+configure:2609: checking if there is a ut_host field in the utmp structure
+configure:2629: gcc -c -g -O2  conftest.c 1>&5
+configure: In function 'main':
+configure:2625:17: warning: implicit declaration of function 'puts' [-Wimplicit-function-declaration]
+ 2625 | struct utmp ut; puts(ut.ut_host);
+      |                 ^~~~
+configure:2625:17: warning: 'puts' argument 1 declared attribute 'nonstring' [-Wstringop-overflow=]
+ 2625 | struct utmp ut; puts(ut.ut_host);
+      |                 ^~~~~~~~~~~~~~~~
+In file included from /usr/include/utmp.h:29,
+                 from configure:2623:
+/usr/include/x86_64-linux-gnu/bits/utmp.h:68:8: note: argument 'ut_host' declared here
+   68 |   char ut_host[UT_HOSTSIZE]
+      |        ^~~~~~~
+configure:2648: checking if there is a ut_exit.e_termination field in the utmp structure
+configure:2667: gcc -c -g -O2  conftest.c 1>&5
+configure:2686: checking if there is a pw_expire field in the pw structure
+configure:2695: gcc -c -g -O2  conftest.c 1>&5
+configure: In function 'main':
+configure:2691:37: error: 'struct passwd' has no member named 'pw_expire'
+ 2691 |  struct passwd *p; void *a=(void *)p->pw_expire;
+      |                                     ^~
+configure: failed program was:
+#line 2688 "configure"
+#include "confdefs.h"
+#include <pwd.h>
+int main() {
+ struct passwd *p; void *a=(void *)p->pw_expire; 
+; return 0; }
+configure:2714: checking if there is a st_blksize field in the stat structure
+configure:2723: gcc -c -g -O2  conftest.c 1>&5
+configure:2742: checking for res_query
+configure:2797: checking for res_query in -lbind
+configure:2845: checking for res_query in -lresolv
+configure:2896: checking how to printf gr_gid
+configure:2912: gcc -o conftest -g -O2   conftest.c  -lcrypt -lnsl 1>&5
+configure:3044: checking how to printf pw_uid
+configure:3060: gcc -o conftest -g -O2   conftest.c  -lcrypt -lnsl 1>&5
+configure:3192: checking how to printf an off_t
+configure:3212: gcc -o conftest -g -O2   conftest.c  -lcrypt -lnsl 1>&5
+configure: failed program was:
+#line 3197 "configure"
+#include "confdefs.h"
+#ifdef HAVE_STDLIB_H
+#include <stdlib.h>
+#endif
+#ifdef HAVE_UNISTD_H
+#include <unistd.h>
+#endif
+#include <sys/stat.h>
+int main(int argc, char **argv) {
+  if(sizeof(off_t)<=4)
+    return 0;
+  return 1;
+}
+configure:3244: gcc -o conftest -g -O2   conftest.c  -lcrypt -lnsl 1>&5
+configure:3347: checking how to printf a time_t
+configure:3376: gcc -o conftest -g -O2   conftest.c  -lcrypt -lnsl 1>&5
+configure: failed program was:
+#line 3352 "configure"
+#include "confdefs.h"
+#ifdef HAVE_STDLIB_H
+#include <stdlib.h>
+#endif
+#ifdef HAVE_UNISTD_H
+#include <unistd.h>
+#endif
+#ifdef TIME_WITH_SYS_TIME
+#include <sys/time.h>
+#include <time.h>
+#else
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#else
+#include <time.h>
+#endif
+#endif
+int main(int argc, char **argv) {
+  if(sizeof(time_t)<=4)
+    return 0;
+  return 1;
+}
+configure:3407: gcc -o conftest -g -O2   conftest.c  -lcrypt -lnsl 1>&5
+configure:3816: checking for setspent in -lshadow
+configure:3864: checking for getspnam in -lshadow
+configure:3910: checking for setspent in -lc

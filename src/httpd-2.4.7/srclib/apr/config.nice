@@ -1,0 +1,18 @@
+#! /bin/sh
+#
+# Created by configure
+
+"/home/salman/DPP/data/httpd-2.4.7/srclib/apr/configure" \
+"--disable-option-checking" \
+"--with-ssl" \
+"--enable-ssl" \
+"--cache-file=/dev/null" \
+"--srcdir=/home/salman/DPP/data/httpd-2.4.7/srclib/apr" \
+"--prefix=/usr/local/apache2" \
+"--exec-prefix=/usr/local/apache2" \
+"--libdir=/usr/local/apache2/lib" \
+"--includedir=/usr/local/apache2/include" \
+"--bindir=/usr/local/apache2/bin" \
+"--datadir=/usr/local/apache2" \
+"--with-installbuilddir=/usr/local/apache2/build" \
+"$@"

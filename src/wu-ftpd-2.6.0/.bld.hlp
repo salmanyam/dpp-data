@@ -1,0 +1,32 @@
+Usage: build <make-options> <target-platform>
+
+<target-platform> may be one of the following:
+  gen    : generic make (copy this when porting to a new system)
+  aix    : IBM AIX
+  aux    : AU/X
+  bdi    : BSD/OS
+  bsd    : BSD
+  dec    : DEC Unix 3.X
+  du4    : DEC Unix 4.X or later
+  dyn    : Dynix
+  fbs    : FreeBSD 2.0 or later
+  him    : Hitachi SR2201 and S-3600 Unix (HI-UX/MPP and HI-OSF/1-MJ)
+  hiu    : Hitachi 3050 Unix (HI-UX/WE2)
+  hpx    : HP-UX
+  lnx    : Linux (tested on 1.2.X and 2.0.0)
+  nbs    : NetBSD 1.X
+  nx2    : NeXTstep 2.x
+  nx3    : NeXTstep 3.x
+  osf    : OSF/1
+  osx    : Mac OS X
+  ptx    : ???
+  sco    : SCO Unix 3.2v4.2 / SCO OpenServer 5
+  sgi    : SGI Irix 5.3
+  ir4    : SGI Irix 4.0.5a
+  sny    : Sony NewsOS
+  sol    : SunOS 5.x / Solaris 2.x 
+  s41    : SunOS 4.1.x 
+  ult    : Ultrix 4.x
+  uxw    : UnixWare 1.1 or later
+  clean  : Clean up object files and such to reduce disk space after building.
+  install: Install ftpd.

@@ -1,0 +1,60 @@
+# $Id$
+
+CC?=	gcc
+
+CFLAGS+=	-Os -Wall -pipe $(OS_FLAGS) \
+		-I/usr/local/include -L/usr/local/lib
+
+LDFLAGS+=	-s -levent -lexpat -lssl
+
+SRC =	main.c orzhttpd.c method.c header.c http_version.c \
+	status.c mimetype.c dirlist.c sendfile.c stuff.c log.c \
+	buffer.c slab.c connection.c request.c response.c \
+	stat_cache.c auth.c passwd.c config.c
+
+OBJ =	$(SRC:.c=.o)
+EXE =	orzhttpd
+
+GARBAGE = 
+
+.c.o:
+	$(CCACHE) $(CC) $(CFLAGS) -c $*.c
+
+all:
+	@echo ----------------------------------------------------
+	@echo "  [1;36morzhttpd[m - [1;37mOrz HTTP Server[m"
+	@echo ""
+	@echo "  Author: [1;33mBor[m-[1;32mYeh [1;31mShen[m\
+	    <byshen@cs.nctu.edu.tw>"
+	@echo ""
+	@echo "  Please enter '[1;34mmake os-type[m'"
+	@echo ""
+	@echo "    make [;33mfreebsd [m: for FreeBSD"
+	@echo "    make [;32mlinux   [m: for Linux 2.6.x"
+	@echo "    make [;35mopenbsd [m: for OpenBSD 4.x"
+	@echo "    make [;34mnetbsd  [m: for NetBSD 3.x"
+	@echo "    make [;31msun     [m: for SunOS 5.x"
+	@echo ----------------------------------------------------
+
+freebsd:
+	@$(MAKE) OS_FLAGS="-DFreeBSD" $(EXE)
+
+openbsd:
+	@$(MAKE) OS_FLAGS="-DOpenBSD" $(EXE)
+
+netbsd:
+	@$(MAKE) OS_FLAGS="-DNetBSD" $(EXE)
+
+linux:
+	@$(MAKE) OS_FLAGS="-DLinux" $(EXE)
+
+sun:
+	@$(MAKE) OS_FLAGS="-DSunOS" LDFLAGS="-lsocket" $(EXE)
+
+$(EXE): $(OBJ)
+	$(CC) -o $(EXE) $(CFLAGS) $(OBJ) $(LDFLAGS)
+	@ls -lh $(EXE)
+
+clean:
+	rm -f $(OBJ) $(EXE) $(GARBAGE) *.core
+

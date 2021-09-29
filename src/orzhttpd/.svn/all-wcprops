@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/141/trunk
+END
+config.xml.sample
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/137/trunk/config.xml.sample
+END
+tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/130/trunk/tree.h
+END
+config.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/139/trunk/config.c
+END
+buffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/110/trunk/buffer.c
+END
+dirlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/137/trunk/dirlist.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/139/trunk/README
+END
+orzhttpd.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/139/trunk/orzhttpd.c
+END
+method.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/120/trunk/method.c
+END
+log.c
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/141/trunk/log.c
+END
+slab.c
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/87/trunk/slab.c
+END
+orzhttpd.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/139/trunk/orzhttpd.h
+END
+status.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/139/trunk/status.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/137/trunk/main.c
+END
+http_version.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/111/trunk/http_version.c
+END
+stuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/126/trunk/stuff.c
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/100/trunk/COPYING
+END
+request.c
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/137/trunk/request.c
+END
+header.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/139/trunk/header.c
+END
+sendfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/121/trunk/sendfile.c
+END
+mimetype.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/122/trunk/mimetype.c
+END
+queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/128/trunk/queue.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/140/trunk/Makefile
+END
+response.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/137/trunk/response.c
+END
+stat_cache.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/131/trunk/stat_cache.c
+END
+connection.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/134/trunk/connection.c
+END
+passwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/139/trunk/passwd.c
+END
+auth.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/140/trunk/auth.c
+END
